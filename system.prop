@@ -35,6 +35,9 @@ ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
 ro.vendor.display.sensortype=2
 
+# fastbootd
+ro.fastbootd.available=true
+
 # Graphics
 debug.sf.use_phase_offsets_as_durations=1
 debug.sf.late.sf.duration=10500000
