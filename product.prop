@@ -10,3 +10,6 @@ persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 
 # App
 ro.launcher.blur.appLaunch=0
+
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
