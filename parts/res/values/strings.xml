@@ -15,6 +15,8 @@
      limitations under the License.
 -->
 <resources>
+    <string name="doze_summary">Advanced Ambient Display Preferences</string>
+
     <!-- Dirac settings -->
     <string name="dirac_title">Mi Sound Enhancer</string>
     <string name="dirac_summary">Optimize audio quality</string>
