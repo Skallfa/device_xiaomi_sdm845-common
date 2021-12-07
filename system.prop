@@ -21,6 +21,9 @@ ro.vendor.use_data_netmgrd=true
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
+# DHA Tunning
+ro.config.dha_tunnable=1
+
 # Display post-processing
 ro.qualcomm.cabl=0
 ro.vendor.display.ad=1
@@ -94,6 +97,13 @@ ril.subscription.types=NV,RUIM
 ro.telephony.default_network=22,22
 ro.telephony.iwlan_operation_mode=legacy
 telephony.lteOnCdmaDevice=1
+
+# Smoothens UI
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+
+# Venom
+ro.surface_flinger.running_without_sync_framework=true
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
