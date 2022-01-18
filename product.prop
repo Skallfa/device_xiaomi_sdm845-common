@@ -7,3 +7,6 @@ ro.build.shutdown_timeout=2
 
 # IORap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
+# App
+ro.launcher.blur.appLaunch=0
