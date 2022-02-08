@@ -92,7 +92,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@7.0.vendor \
     android.hardware.audio.service \
     android.hardware.soundtrigger@2.2-impl:32 \
-    audio.a2dp.default \
     audio.r_submix.default \
     audio.usb.default \
     libqcompostprocbundle \
