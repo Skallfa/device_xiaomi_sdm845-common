@@ -164,6 +164,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
+    init.performance_level.rc \
     ueventd.qcom.rc
 
 # Context Hub
