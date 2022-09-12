@@ -12,6 +12,10 @@
 /data/vendor/mac_addr(/.*)?                   u:object_r:wifi_vendor_data_file:s0
 /data/vendor/thermal(/.*)?                    u:object_r:thermal_data_file:s0
 
+# Firmware
+/firmware                                     u:object_r:firmware_file:s0
+/bt_firmware(/.*)?                            u:object_r:bt_firmware_file:s0
+
 # Executables
 /vendor/bin/glgps                             u:object_r:glgps_exec:s0
 /vendor/bin/ignss_2_0                         u:object_r:hal_gnss_default_exec:s0
