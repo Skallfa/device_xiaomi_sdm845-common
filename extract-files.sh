@@ -54,7 +54,9 @@ while [ "${#}" -gt 0 ]; do
 system_ext/lib64/lib-imsvideocodec.so)
             ${PATCHELF} --add-needed "lib-imsvtshim.so" "${2}"
             ;;
-
+vendor/lib/camera/components/com.mi.node.watermark.so)
+            "${PATCHELF}" --add-needed "lib-watermarkshim.so" "${2}"
+            ;;
     esac
     shift
 done
