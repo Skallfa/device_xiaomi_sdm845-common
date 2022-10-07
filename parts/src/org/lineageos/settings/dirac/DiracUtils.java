@@ -34,7 +34,7 @@ public class DiracUtils {
     protected static DiracSound mDiracSound;
     private MediaSessionManager mMediaSessionManager;
     private Handler mHandler = new Handler();
-    private static mContext;
+    static Context mContext;
 
     public DiracUtils(Context context) {
         mContext = context;
