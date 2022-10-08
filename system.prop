@@ -97,6 +97,7 @@ ril.subscription.types=NV,RUIM
 ro.telephony.default_network=22,22
 ro.telephony.iwlan_operation_mode=legacy
 telephony.lteOnCdmaDevice=1
+persist.vendor.qti.telephony.vt_cam_interface=2
 
 # Smoothens UI
 persist.service.lgospd.enable=0
