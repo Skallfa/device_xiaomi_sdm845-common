@@ -462,7 +462,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml \
-    lib-imsvtshim:64 \
     lib-imsvtshim \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
