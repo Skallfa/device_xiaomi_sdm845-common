@@ -276,10 +276,6 @@
         <item>13</item>
     </integer-array>
 
-    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
-         in hardware. -->
-    <bool name="config_setColorTransformAccelerated">true</bool>
-
     <!-- True if the device supports Sustained Performance Mode-->
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
 
