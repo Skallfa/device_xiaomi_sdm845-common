@@ -45,7 +45,6 @@ debug.sf.earlyGl.app.duration=21000000
 debug.sf.enable_hwc_vds=0
 debug.sf.latch_unsignaled=0
 debug.renderengine.backend=threaded
-renderthread.skia.reduceopstasksplitting=true
 persist.demo.hdmirotationlock=false
 persist.sys.sf.native_mode=0
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
