@@ -163,4 +163,3 @@ include vendor/xiaomi/sdm845-common/BoardConfigVendor.mk
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 RELAX_USES_LIBRARY_CHECK := true
-SELINUX_IGNORE_NEVERALLOWS := true
