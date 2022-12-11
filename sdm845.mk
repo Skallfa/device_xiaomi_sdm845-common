@@ -122,9 +122,8 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth@1.1 \
     android.hardware.bluetooth@1.1.vendor \
-    android.hardware.bluetooth.audio-impl \
+    android.hardware.bluetooth.audio@2.1-impl:32 \
     android.hardware.bluetooth.a2dp@1.0 \
-    android.hardware.bluetooth.a2dp@1.0.vendor \
     android.hardware.bluetooth.audio@2.0 \
     android.hardware.bluetooth.audio@2.0.vendor \
     audio.bluetooth.default \
@@ -145,7 +144,7 @@ PRODUCT_PACKAGES += \
     liblhdcBT_enc \
     liblhdcdec \
     liblhdcBT_dec
-
+    
 PRODUCT_PACKAGES += \
     libldacBT_enc \
     libldacBT_abr
@@ -575,3 +574,4 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sdm845-common/sdm845-common-vendor.mk)
+
