@@ -324,6 +324,10 @@ PRODUCT_PACKAGES += \
     android.hardware.lights-service.xiaomi_sdm845 \
     android.hardware.light@2.0 \
     android.hardware.light@2.0.vendor
+    
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service-sdm
 
 # Media
 PRODUCT_PACKAGES += \
