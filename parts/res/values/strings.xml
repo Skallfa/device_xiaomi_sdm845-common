@@ -101,8 +101,4 @@
     <!-- HIFI -->
     <string name="dirac_hifi_title">Hi-Fi</string>
     <string name="dirac_hifi_summary">Decrease noise and distortion and increase audio quality</string>
-     
-    <!-- WiFi Hotspot -->
-    <string name="wifi_hotspot_extend_title">Extend compatibility</string>
-    <string name="wifi_hotspot_extend_summary">Helps other devices find this hotspot. Reduces hotspot connection speed.</string>
 </resources>
