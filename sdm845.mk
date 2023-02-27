@@ -83,6 +83,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@7.0 \
     android.hardware.audio@7.0.vendor \
     android.hardware.audio.service \
+    android.hardware.soundtrigger@2.0-impl:32 \
     android.hardware.soundtrigger@2.2-impl:32 \
     audio.r_submix.default \
     audio.usb.default \
