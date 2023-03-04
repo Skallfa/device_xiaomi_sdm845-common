@@ -47,7 +47,6 @@ debug.sf.enable_hwc_vds=0
 debug.sf.latch_unsignaled=0
 debug.hwui.skia_atrace_enabled=false
 debug.sf.enable_transaction_tracing=false
-debug.renderengine.backend=skiaglthreaded
 persist.demo.hdmirotationlock=false
 persist.sys.sf.native_mode=0
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
@@ -58,7 +57,10 @@ vendor.display.disable_rotator_downscale=1
 sdm.debug.disable_inline_rotator_secure=1
 debug.sf.predict_hwc_composition_strategy=0
 debug.performance.tuning=1
-debug.hwui.renderer=skiagl
+
+# OpenGL
+debug.hwui.renderer=opengl
+
 
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
