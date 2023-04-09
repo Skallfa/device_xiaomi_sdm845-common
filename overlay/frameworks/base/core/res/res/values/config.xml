@@ -379,4 +379,7 @@
      
      <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">true</bool>
+     
+     <!-- Device light capabilities -->
+     <integer name="config_deviceLightCapabilities">232</integer>
 </resources>
