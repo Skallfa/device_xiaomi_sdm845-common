@@ -16,6 +16,12 @@ ro.lmk.log_stats=true
 # Shutdown
 ro.build.shutdown_timeout=2
 
+# Apex
+ro.apex.updatable=false
+
+# FS-verity
+ro.apk_verity.mode=2
+
 # IORap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 
