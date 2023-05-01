@@ -378,10 +378,13 @@
     <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
      
      <!-- Whether the device supports Smart Pixels -->
-    <bool name="config_supportSmartPixels">false</bool>
+    <bool name="config_supportsSmartPixels">false</bool>
      
      <!-- Whether the device supports Alert Slider -->
     <bool name="config_hasAlertSlider">false</bool>
+     
+     <!-- Whether the device supports on-display fingerprint when screen is off -->
+    <bool name="config_supportsScreenOffUdfps">false</bool>
      
      <!-- Device light capabilities -->
      <integer name="config_deviceLightCapabilities">232</integer>
