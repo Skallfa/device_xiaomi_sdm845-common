@@ -65,6 +65,9 @@ PRODUCT_COPY_FILES += \
 # Properties
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
+# APEX
+OVERRIDE_TARGET_FLATTEN_APEX := true
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
