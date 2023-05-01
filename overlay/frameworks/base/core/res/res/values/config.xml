@@ -381,7 +381,7 @@
     <bool name="config_supportSmartPixels">false</bool>
      
      <!-- Whether the device supports Alert Slider -->
-    <bool name="config_supportAlertSlider">false</bool>
+    <bool name="config_hasAlertSlider">false</bool>
      
      <!-- Device light capabilities -->
      <integer name="config_deviceLightCapabilities">232</integer>
