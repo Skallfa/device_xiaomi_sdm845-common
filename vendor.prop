@@ -109,7 +109,8 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 # Display post-processing
 ro.vendor.display.cabl=2
 debug.sf.disable_client_composition_cache=1
-debug.sf.enable_gl_backpressure=1
+debug.sf.disable_backpressure=1
+debug.sf.enable_egl_image_tracker=1
 ro.surface_flinger.protected_contents=true
 ro.hwui.render_ahead=10
 debug.hwui.use_hint_manager=true
