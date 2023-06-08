@@ -58,6 +58,7 @@ vendor.display.disable_rotator_downscale=1
 sdm.debug.disable_inline_rotator_secure=1
 debug.sf.predict_hwc_composition_strategy=0
 debug.performance.tuning=1
+ro.sf.lcd_density=404
 
 # OpenGL
 debug.hwui.renderer=opengl
