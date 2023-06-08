@@ -68,6 +68,10 @@ vendor/lib/libhfp.so
 vendor/lib/libsndmonitor.so
 vendor/lib/libspkrprot.so
 
+# Audio USB
+vendor/lib/libalsautils-v30.so|6668228d72340335d4d8db04f04dade6efa94c24
+vendor/lib64/libalsautils-v30.so|4d9068585b18827dd0652f6c0964ebbb1b1ff2c3
+
 # Audio FX modules
 system/etc/permissions/audiosphere.xml
 system/framework/audiosphere.jar
