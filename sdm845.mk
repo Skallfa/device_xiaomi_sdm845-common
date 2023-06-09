@@ -202,11 +202,7 @@ PRODUCT_COPY_FILES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts
-    
-# KProfiles
-PRODUCT_PACKAGES += \
-    KProfiles    
+    XiaomiParts    
 
 # Display
 PRODUCT_PACKAGES += \
