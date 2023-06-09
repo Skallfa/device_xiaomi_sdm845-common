@@ -155,6 +155,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libldacBT_enc \
     libldacBT_abr
+    
+# Blur    
+TARGET_ENABLE_BLUR := false    
 
 # Camera
 PRODUCT_PACKAGES += \
