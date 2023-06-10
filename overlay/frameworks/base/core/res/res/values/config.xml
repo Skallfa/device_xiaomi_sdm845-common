@@ -405,7 +405,7 @@
     <integer name="config_wakeUpDelayDoze">32</integer>
      
      <!-- Whether the new Auto Selection Network UI should be shown -->
-    <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
+    <bool name="config_enableNewAutoSelectNetworkUI">false</bool>
      
      <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
     <integer name="config_screenRecorderMaxFramerate">60</integer>
