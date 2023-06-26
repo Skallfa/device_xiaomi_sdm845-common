@@ -30,3 +30,6 @@ set_prop(hal_power_default, vendor_power_prop)
 # Kernelspace battery saver
 allow hal_power_default sysfs_battery_saver:dir r_dir_perms;
 allow hal_power_default sysfs_battery_saver:file rw_file_perms;
+
+# Powerhal
+allow hal_power_default proc:file { open read write create };
