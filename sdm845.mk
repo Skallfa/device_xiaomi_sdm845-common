@@ -339,6 +339,10 @@ PRODUCT_PACKAGES += \
     android.hardware.lights-service.xiaomi_sdm845 \
     android.hardware.light@2.0 \
     android.hardware.light@2.0.vendor
+
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
     
 # LiveDisplay
 PRODUCT_PACKAGES += \
