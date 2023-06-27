@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2017 The Android Open Source Project
- * Copyright (C) 2018-2020 The LineageOS Project
+ * Copyright (C) 2018-2022 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm845"
+#define LOG_TAG "android.hardware.biometrics.fingerprint@2.3-service.xiaomi_sdm845"
 
 #include "BiometricsFingerprint.h"
 
@@ -37,7 +37,7 @@ namespace android {
 namespace hardware {
 namespace biometrics {
 namespace fingerprint {
-namespace V2_1 {
+namespace V2_3 {
 namespace implementation {
 
 // Supported fingerprint HAL version
@@ -499,12 +499,21 @@ void BiometricsFingerprint::notify(const fingerprint_msg_t* msg) {
     }
 }
 
-Return<int32_t> BiometricsFingerprint::extCmd(int32_t cmd, int32_t param) {
-    return mDevice->extCmd(mDevice, cmd, param);
+Return<bool> BiometricsFingerprint::isUdfps(uint32_t /* sensorId */) {
+    return false;
+}
+
+Return<void> BiometricsFingerprint::onFingerDown(uint32_t /* x */, uint32_t /* y */,
+                                                float /* minor */, float /* major */) {
+    return Void();
+}
+
+Return<void> BiometricsFingerprint::onFingerUp() {
+    return Void();
 }
 
 }  // namespace implementation
-}  // namespace V2_1
+}  // namespace V2_3
 }  // namespace fingerprint
 }  // namespace biometrics
 }  // namespace hardware
