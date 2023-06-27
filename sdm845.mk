@@ -406,7 +406,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2 \
     android.hardware.power@1.2.vendor \
-    android.hardware.power-service.xiaomi-sdm845-libperfmgr \
+    android.hardware.power-service.xiaomi-libperfmgr \
     android.hardware.power.stats@1.0-service.xiaomi
 
 PRODUCT_COPY_FILES += \
