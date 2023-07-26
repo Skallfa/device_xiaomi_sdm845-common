@@ -74,7 +74,7 @@ debug.cpurend.vsync=false
 persist.vendor.ims.disableUserAgent=0
 
 # Media
-debug.stagefright.omx_default_rank=512
+debug.stagefright.omx_default_rank=0
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # Memory optimizations
