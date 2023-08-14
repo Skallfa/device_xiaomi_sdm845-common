@@ -134,6 +134,9 @@ persist.vendor.qti.inputopts.enable=true
 persist.vendor.qti.inputopts.movetouchslop=0.6 
 ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 
+# Multi-Gen LRU
+persist.device_config.mglru_native.lru_gen_config=core
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
