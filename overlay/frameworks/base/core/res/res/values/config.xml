@@ -409,5 +409,8 @@
      
      <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
     <integer name="config_screenRecorderMaxFramerate">60</integer>
+
+     <!-- Whether device has a notch -->
+    <bool name="config_haveNotch">true</bool>
      
 </resources>
