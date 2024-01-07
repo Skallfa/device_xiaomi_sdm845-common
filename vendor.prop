@@ -111,7 +111,7 @@ dalvik.vm.systemuicompilerfilter=speed
 
 # Display post-processing
 ro.vendor.display.cabl=2
-debug.sf.disable_client_composition_cache=0
+debug.sf.disable_client_composition_cache=1
 debug.sf.enable_egl_image_tracker=0
 ro.surface_flinger.protected_contents=true
 ro.hwui.render_ahead=2
@@ -122,6 +122,10 @@ ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 debug.sdm.support_writeback=0
 debug.sf.disable_backpressure=1
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+vendor.perf.framepacing.enable=1
+vendor.display.disable_rotator_downscale=1
 
 # DRM
 drm.service.enabled=true
@@ -181,12 +185,14 @@ ro.vendor.audio.soundtrigger.vop.adsp.level=10
 ro.vendor.audio.soundtrigger.training.level=60
 ro.vendor.audio.soundtrigger.hist.duration=1500
 
+# Media
+persist.mm.enable.prefetch=true
+
 # Netflix custom property
 ro.netflix.bsp_rev=Q845-14477-1
 
 # Network manager
 persist.vendor.data.iwlan.enable=true
-ro.telephony.iwlan_operation_mode=legacy
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
