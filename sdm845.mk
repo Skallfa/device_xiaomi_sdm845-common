@@ -607,6 +607,3 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sdm845-common/sdm845-common-vendor.mk)
-
-# Call MiCam setup
-$(call inherit-product, vendor/miuicamera/config.mk)
