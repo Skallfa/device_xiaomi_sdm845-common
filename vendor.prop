@@ -112,6 +112,7 @@ dalvik.vm.systemuicompilerfilter=speed
 # Display post-processing
 ro.vendor.display.cabl=2
 debug.sf.disable_client_composition_cache=1
+debug.sf.enable_transaction_tracing=false
 debug.sf.treat_170m_as_sRGB=1
 debug.sf.enable_egl_image_tracker=0
 ro.surface_flinger.protected_contents=true
