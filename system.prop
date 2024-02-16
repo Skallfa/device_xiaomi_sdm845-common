@@ -63,8 +63,9 @@ debug.sf.predict_hwc_composition_strategy=0
 debug.performance.tuning=1
 ro.sf.lcd_density=404
 
-# OpenGL
-debug.hwui.renderer=opengl
+# SkiaGL
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
 
 # Dexopt
 pm.dexopt.first-boot=quicken
